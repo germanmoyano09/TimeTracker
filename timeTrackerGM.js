@@ -148,6 +148,6 @@
   }
 
   function createHTMLElement() {
-      $("h2").append("<div id='workedTime' style='text-align: right; color: black; margin-top: 30px; margin-right: 30px;'></div>");
+      $('#details').append("<div id='workedTime' style='text-align: right; color: black; margin-top: 30px; margin-right: 30px;'></div>");
   }
 })();
